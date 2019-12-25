@@ -1,4 +1,4 @@
-FROM freecat888/centos-sshd
+FROM freecat888/centos-sshd:7
 MAINTAINER freecat888<jhuix0117@gmail.com>
 RUN yum -y install epel-release; \
   rpm --import https://www.elrepo.org/RPM-GPG-KEY-elrepo.org; \
